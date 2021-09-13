@@ -13,15 +13,16 @@ namespace Parcial
         static void Main(string[] args)
         {
             Usuario usuario = new Usuario();
-            Console.WriteLine("Ingrese su usuario");
+            Console.WriteLine("Ingrese su nombre de usuario");
             usuario.Nombre = Console.ReadLine();
             Console.WriteLine("Ingrese su contraseña");
             usuario.Contra = Convert.ToInt32(Console.ReadLine());
+            ClsUsuariio clsUsuariio = new ClsUsuariio();
+            Console.WriteLine(clsUsuariio.Acceso(usuario));
             
-            int x = 1; 
-            while (x == 1)
+            while (usuario.Token == 1)
             {
-               
+                ;
                 Venta venta = new Venta();
                 ClsVenta clsVenta = new ClsVenta();
                 Console.WriteLine("Ingrese el id del producto");
@@ -39,6 +40,11 @@ namespace Parcial
                 Console.WriteLine(venta.ToString());
 
             }
+
+            
+               
+
+            
         }
     }
 }

@@ -8,13 +8,14 @@ namespace Parcial.Entidades
 {
     class Usuario
     {
-        private string nombre;
-        private int contra;
+         string nombre;
+         int contra;
+         int token;
+        
 
     
         public string Nombre { get => nombre; set => nombre = value; }
         public int Contra { get => contra; set => contra = value; }
-      
-
+        public int Token { get => token; set => token = value; }
     }
 }

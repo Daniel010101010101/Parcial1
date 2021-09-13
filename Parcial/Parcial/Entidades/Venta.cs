@@ -15,6 +15,7 @@ namespace Parcial.Entidades
         private int cantidadproducto;
         private double total;
         private double descuento;
+        
 
        
 
@@ -25,5 +26,14 @@ namespace Parcial.Entidades
         public int Cantidadproducto { get => cantidadproducto; set => cantidadproducto = value; }
         public double Total { get => total; set => total = value; }
         public double Descuento { get => descuento; set => descuento = value; }
+
+        public override string ToString()
+        {
+            return "Identificador del producto: " + Identificadorproducto +
+                "\nNombre del producto: " + nombreproducto +
+                "\nDescripción del producto: " + descripciónproducto +
+                "\nPrecio del Producto:  " + preciodeproducto +
+                "\nCantidad del Producto: " + cantidadproducto;
+        }
     }
 }
