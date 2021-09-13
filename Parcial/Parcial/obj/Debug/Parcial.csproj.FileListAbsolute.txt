@@ -1,0 +1,7 @@
+C:\Users\ASUS\Documents\GitHub\ClasesGeneral\Parcial\Parcial\bin\Debug\Parcial.exe.config
+C:\Users\ASUS\Documents\GitHub\ClasesGeneral\Parcial\Parcial\bin\Debug\Parcial.exe
+C:\Users\ASUS\Documents\GitHub\ClasesGeneral\Parcial\Parcial\bin\Debug\Parcial.pdb
+C:\Users\ASUS\Documents\GitHub\ClasesGeneral\Parcial\Parcial\obj\Debug\Parcial.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\ClasesGeneral\Parcial\Parcial\obj\Debug\Parcial.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\ClasesGeneral\Parcial\Parcial\obj\Debug\Parcial.exe
+C:\Users\ASUS\Documents\GitHub\ClasesGeneral\Parcial\Parcial\obj\Debug\Parcial.pdb
