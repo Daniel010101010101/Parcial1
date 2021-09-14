@@ -16,12 +16,12 @@ namespace Parcial.Negocio
             if(cobro.Total > 50 )
             {
                 cobro.Descuento = cobro.Total - (cobro.Total * 0.20);
-                return ("el total a pagar con descuento es: " + cobro.Total);
+                return ("el total a pagar con descuento es: " + cobro.Descuento);
                
             }
             else
             {
-                return ("No se aplico ningun descuento.");
+                return ("No se aplico ningun descuento." + cobro.Total);
             }
             
            

@@ -20,9 +20,9 @@ namespace Parcial
             ClsUsuariio clsUsuariio = new ClsUsuariio();
             Console.WriteLine(clsUsuariio.Acceso(usuario));
             
-            while (usuario.Token == 1)
+            while (usuario.Token == 1 )
             {
-                ;
+                
                 Venta venta = new Venta();
                 ClsVenta clsVenta = new ClsVenta();
                 Console.WriteLine("Ingrese el id del producto");
@@ -40,6 +40,15 @@ namespace Parcial
                 Console.WriteLine(venta.ToString());
 
             }
+            while (usuario.Token == 2)
+            {
+                
+                Console.ReadKey();
+            }
+            
+            
+
+            
 
             
                
